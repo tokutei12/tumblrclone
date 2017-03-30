@@ -63,7 +63,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         if let photos = post.value(forKeyPath: "photos") as? [NSDictionary] {
             let imageUrlString = photos[0].value(forKeyPath: "original_size.url") as? String
             if let imageUrl = URL(string: imageUrlString!) {
-                print(imageUrl)
                 cell.photoView.setImageWith(imageUrl)
             }
         }
@@ -76,15 +75,14 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        let vc = segue.destination as! PhotoDetailsViewController
+        let indexPath = tableView.indexPath(for: sender as! UITableViewCell)!
+        let post = posts[indexPath.row]
+        vc.post = post
     }
-    */
 
 }
