@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A5E50F61E8CA647002B3B43 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E50F51E8CA647002B3B43 /* PhotosViewController.swift */; };
+		7A5E50F81E8CAB9D002B3B43 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E50F71E8CAB9D002B3B43 /* PhotoCell.swift */; };
 		7A6E62AD1E8CA2C2003A8A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E62AC1E8CA2C2003A8A24 /* AppDelegate.swift */; };
 		7A6E62B21E8CA2C2003A8A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E62B01E8CA2C2003A8A24 /* Main.storyboard */; };
 		7A6E62B41E8CA2C2003A8A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E62B31E8CA2C2003A8A24 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		091B0BFD164994C716D3A6D5 /* Pods-TumblrClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrClone/Pods-TumblrClone.debug.xcconfig"; sourceTree = "<group>"; };
 		1A2FE4453B01B79AE42B8548 /* Pods-TumblrClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrClone/Pods-TumblrClone.release.xcconfig"; sourceTree = "<group>"; };
 		7A5E50F51E8CA647002B3B43 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		7A5E50F71E8CAB9D002B3B43 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		7A6E62A91E8CA2C2003A8A24 /* TumblrClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TumblrClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6E62AC1E8CA2C2003A8A24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A6E62B11E8CA2C2003A8A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				7A6E62AC1E8CA2C2003A8A24 /* AppDelegate.swift */,
 				7A6E62B01E8CA2C2003A8A24 /* Main.storyboard */,
+				7A5E50F71E8CAB9D002B3B43 /* PhotoCell.swift */,
 				7A6E62B31E8CA2C2003A8A24 /* Assets.xcassets */,
 				7A6E62B51E8CA2C2003A8A24 /* LaunchScreen.storyboard */,
 				7A6E62B81E8CA2C2003A8A24 /* Info.plist */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A6E62AD1E8CA2C2003A8A24 /* AppDelegate.swift in Sources */,
+				7A5E50F81E8CAB9D002B3B43 /* PhotoCell.swift in Sources */,
 				7A5E50F61E8CA647002B3B43 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
