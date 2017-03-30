@@ -1,0 +1,6 @@
+framework module Pods_TumblrClone {
+  umbrella header "Pods-TumblrClone-umbrella.h"
+
+  export *
+  module * { export * }
+}
